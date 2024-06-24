@@ -1,0 +1,25 @@
+[profile.default]
+src = "src"
+out = "out"
+solc = "0.8.20"
+libs = ["lib"]
+
+optimizer = true
+optimizer_runs = 1000
+verbosity=3
+
+[fuzz]
+runs = 5000
+
+[rpc_endpoints]
+goerli = "${MUMBAI_RPC_URL}"
+
+[etherscan]
+goerli = { key = "${POLYGONSCAN_KEY}" }
+
+[invariant]
+runs = 128
+depth = 128
+
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config

@@ -1,0 +1,8 @@
+# Compiler files
+cache/
+out/
+Deployment.s.sol/
+
+
+# Dotenv file
+.env
