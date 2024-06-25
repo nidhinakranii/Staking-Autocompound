@@ -38,13 +38,13 @@ To clone this repository and run the tests in a single line, run the following c
 **_In Windows Powershell_**
 
 ```copy
-git clone https://github.com/JuanXavier/autocompound_staking ; cd ./autocompound_staking ; forge test
+git clone https://github.com/nidhinakranii/Staking-Autocompound.git ; cd ./autocompound_staking ; forge test
 ```
 
 **_In Linux/Mac terminal_**
 
 ```copy
-git clone https://github.com/JuanXavier/autocompound_staking && cd autocompound_staking && forge test
+git clone https://github.com/nidhinakranii/Staking-Autocompound.git && cd autocompound_staking && forge test
 ```
 
 Or,
